@@ -47,21 +47,24 @@
     padding: 2px 5px;
     position: absolute;
     left: 0;
-    bottom: 50px;
+    bottom: 30px;
+    z-index: 10;
   }
   .sostenibilita{
     background-color: green;
     padding: 2px 5px;
     position: absolute;
-    bottom: 50px;
+    bottom: 30px;
     left: 50px;
+    z-index: 10;
   }
   .sostenibilita-only{
     background-color: green;
     padding: 2px 5px;
     position: absolute;
     left: 0;
-    bottom: 50px;
+    bottom: 30px;
+    z-index: 10;
   }
   .cuore{
     background-color: white;
@@ -69,9 +72,22 @@
     position: absolute;
     top: 5px;
     right: 0;
+    z-index: 10;
   }
   .soldi-sconto{
     color: red;
+  }
+
+  .foto .overlay{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     opacity: 0;
+  }
+  .col-1:hover .overlay{
+    opacity: 1;
   }
 
 
@@ -80,8 +96,9 @@
 
 
   .background-foot{
-    background-color: rgba(0, 0, 0, 0.748);
+    background-color: rgba(0, 0, 0, 0.852);
     padding: 20px 0;
+    color: white;
 }
 
 
