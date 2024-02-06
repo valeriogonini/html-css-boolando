@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ .container{
+    margin: 0 auto;
+    max-width: 1000px;
+ }
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ img{
+    width: 100%;
+    display: block;
+ }
+
+
+
+
+
+ .background-header{
+    background-color: orange;
+    padding: 15px 0;
+ }
+
+.background-header .row{
+    justify-content: space-between;
+}
+
+
+  .row .col-1{
+    padding: 30px 5px;
+  }
+
+  .col-1 {
+    
+    width: calc(6 * 100% / 18);
+
+  }
+  .foto{
+    position: relative;
+  }
+  .sconto{
+    background-color: red;
+    padding: 2px 5px;
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+  }
+  .sostenibilita{
+    background-color: green;
+    padding: 2px 5px;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+  }
+  .cuore{
+    background-color: white;
+    padding: 8px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+  }
+  
