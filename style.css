@@ -85,6 +85,15 @@
      top: 0;
      left: 0;
      opacity: 0;
+    
+  }
+  .overlay .cuore-red{
+    background-color: red;
+    padding: 8px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    z-index: 10;
   }
   .col-1:hover .overlay{
     opacity: 1;
