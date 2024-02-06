@@ -56,6 +56,13 @@
     bottom: 50px;
     left: 50px;
   }
+  .sostenibilita-only{
+    background-color: green;
+    padding: 2px 5px;
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+  }
   .cuore{
     background-color: white;
     padding: 8px;
@@ -63,4 +70,23 @@
     top: 5px;
     right: 0;
   }
-  
+  .soldi-sconto{
+    color: red;
+  }
+
+
+
+
+
+
+  .background-foot{
+    background-color: rgba(0, 0, 0, 0.748);
+    padding: 20px 0;
+}
+
+
+
+  .background-foot .row{
+    justify-content: space-between;
+
+  }
